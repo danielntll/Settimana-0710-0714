@@ -1,0 +1,26 @@
+.UserprofileRoute{
+  
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  height: 100%;
+
+  .UserprofileRoute__notLogged{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .button{
+      padding: 8px;
+      border-radius: 8px;
+      background-color: $color-primary;
+      color : $background-color;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      gap: 10px;
+    }
+  }
+}

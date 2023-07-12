@@ -1,0 +1,25 @@
+.Signin{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  
+  .Signin__form{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+
+    input{
+      padding: 16px;
+      border-radius: 8px;
+      border: 0;
+      box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .Signin__button{
+      padding: 16px;
+      background-color: $color-primary;
+      border-radius: 8px;
+      color: $background-color;
+    }
+  }
+}

@@ -9,6 +9,7 @@ export default defineConfig({
       scss: {
         additionalData: `
           @import "./src/scss/variables/colors.scss";
+          @import "./src/scss/variables/variables.scss";
         `,
       },
     },
